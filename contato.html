@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Fale Conosco</h1>
+    <h1>Entre em Contato</h1>
     <nav>
       <a href="index.html">Início</a> |
       <a href="produtos.html">Produtos</a> |
@@ -16,15 +16,25 @@
     </nav>
   </header>
 
-  <form action="mailto:contato@witchbitchbrew.com" method="post" enctype="text/plain">
-    <label>Nome:</label><br>
-    <input type="text" name="nome"><br>
-    <label>Email:</label><br>
-    <input type="email" name="email"><br>
-    <label>Mensagem:</label><br>
-    <textarea name="mensagem"></textarea><br>
-    <input type="submit" value="Enviar">
-  </form>
+  <section>
+    <p>Para encomendas, dúvidas ou parcerias, preencha o formulário abaixo ou fale conosco diretamente.</p>
+
+    <form action="mailto:contato@witchbitchbrew.com" method="post" enctype="text/plain">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" rows="5" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <p style="margin-top:20px;">Ou fale diretamente conosco pelo WhatsApp:</p>
+    <p><a href="https://wa.me/5599999999999" target="_blank" style="color: #ffcc99; font-weight: bold;">(99) 99999-9999</a></p>
+  </section>
 
   <script src="js/script.js"></script>
 </body>

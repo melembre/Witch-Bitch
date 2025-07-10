@@ -5,63 +5,66 @@
   box-sizing: border-box;
 }
 
-/* Fundo com degradê preto-marron */
 body {
   font-family: 'Georgia', serif;
   background: linear-gradient(to bottom, #000000, #3b2f2f);
   color: #f0e6d2;
-  line-height: 1.6;
+  line-height: 1.8;
   text-align: center;
-  padding: 30px;
+  padding: 40px 20px;
+  font-size: 1.2em;
 }
 
-/* Cabeçalho com destaque */
 header {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 3.2em;
   color: #e0cba8;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 header p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #cbb89d;
 }
 
 nav {
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
 nav a {
   color: #f0e6d2;
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0 14px;
   font-weight: bold;
-  transition: color 0.3s ease;
+  font-size: 1.1em;
 }
 
 nav a:hover {
   color: #ffcc99;
 }
 
-/* Seções */
 section {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.05);
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.06);
   border-radius: 10px;
+  padding: 30px;
 }
 
-/* Imagens da galeria */
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #e0cba8;
+}
+
 section img {
-  max-width: 250px;
-  height: auto;
+  max-width: 240px;
   margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000090;
   transition: transform 0.3s ease;
 }
 
@@ -71,25 +74,41 @@ section img:hover {
 
 /* Formulário */
 form {
-  display: inline-block;
-  text-align: left;
-  margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-form label,
-form input,
-form textarea {
   display: block;
-  width: 100%;
-  margin-bottom: 15px;
-  font-size: 1em;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 25px;
+  border-radius: 12px;
 }
 
-form input,
-form textarea {
-  padding: 8px;
-  backgro
+form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1em;
+  background-color: #f8f5ef;
+  color: #333;
+}
+
+form input[type="submit"] {
+  background-color: #5a3e36;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #a3754a;
+}
 
