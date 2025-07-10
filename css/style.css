@@ -111,4 +111,32 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #a3754a;
 }
+.botao-whatsapp {
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.botao-whatsapp i {
+  font-size: 1.5em;
+  color: #eaffee;
+}
+
+.botao-whatsapp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
 
