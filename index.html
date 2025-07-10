@@ -1,74 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Britch Witch News</title>
-<link rel="stylesheet" href="assets/css/estilo.css" />
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu Site Estático</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
-<nav>
-  <ul>
-    <li><a href="#inicio">Início</a></li>
-    <li><a href="#filosofia">Filosofia</a></li>
-    <li><a href="#video">Vídeo</a></li>
-    <li><a href="#galeria">Galeria</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ul>
-</nav>
+    <main>
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <p>Este é o conteúdo do site. Aqui você pode colocar seus textos, imagens e vídeos.</p>
+            <img src="assets/images/exemplo.jpg" alt="Exemplo de imagem" />
+            <video controls width="320">
+                <source src="assets/videos/exemplo.mp4" type="video/mp4" />
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </section>
+    </main>
 
-<div class="container" id="inicio">
-  <h1>Witch Bitch Brews</h1>
-  <h2>Charcutaria & Queijos Artesanais de Excelência</h2>
-  <p class="lead">
-    Produtos lácteos e cárneos artesanais, elaborados com tempo, técnica e ingredientes nobres. Nossa missão é elevar a experiência gastronômica através de alimentos produzidos em pequenos lotes com alma, precisão e profundo respeito ao tempo de cura.
-  </p>
-</div>
-
-<div class="container" id="filosofia">
-  <h2>Nossa Filosofia</h2>
-  <dl>
-    <dt>Terroir:</dt>
-    <dd>A expressão do local em cada peça, respeitando as sazonalidades e os produtores.</dd>
-    <dt>Técnica:</dt>
-    <dd>Métodos clássicos de cura e fermentação aliados à inovação controlada.</dd>
-    <dt>Tempo:</dt>
-    <dd>O tempo é ingrediente essencial na formação de sabores complexos.</dd>
-    <dt>Origem:</dt>
-    <dd>Ingredientes rastreáveis, respeitando o animal, o solo e o consumidor.</dd>
-    <dt>Experiência:</dt>
-    <dd>Mais que alimentos, entregamos cultura, história e prazer à mesa.</dd>
-  </dl>
-</div>
-
-<div class="container" id="video">
-  <h2>Vídeo: A Arte da Cura de Queijos</h2>
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/Bu1U0PkUgfI" title="Fazer Queijo Curar o Queijo" allowfullscreen></iframe>
-  </div>
-</div>
-
-<div class="gallery" id="galeria">
-  <img src="assets/imagens/charcutaria1.jpg" alt="Charcutaria Refinada" />
-  <img src="assets/imagens/charcutaria2.jpg" alt="Queijos Curados" />
-  <img src="assets/imagens/charcutaria3.jpg" alt="Tábuas" />
-  <img src="assets/imagens/charcutaria4.jpg" alt="Frios e Cortes" />
-</div>
-
-<section class="contact" id="contato">
-  <h2>Contato & Encomendas</h2>
-  <p>Email: <a href="mailto:contato@suaempresa.com">contato@suaempresa.com</a></p>
-  <p>Instagram: <a href="https://instagram.com/suaempresa" target="_blank">@suaempresa</a></p>
-  <p>WhatsApp: <a href="https://wa.me/5511999999999" target="_blank">(XX) XXXXX-XXXX</a></p>
-</section>
-
-<footer>
-  © 2025 - Produção Artesanal com Identidade Brasileira
-</footer>
-
-<script src="scripts/principal.js"></script>
+    <footer>
+        <p>© 2025 Meu Site Estático</p>
+    </footer>
 </body>
 </html>
 
